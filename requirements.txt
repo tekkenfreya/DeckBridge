@@ -1,0 +1,9 @@
+paramiko==3.4.0
+keyring==25.2.1
+tkinterdnd2==0.3.0
+black==24.4.2
+ruff==0.4.8
+pytest==8.2.2
+pytest-mock==3.14.0
+pyinstaller==6.8.0
+Pillow==10.3.0

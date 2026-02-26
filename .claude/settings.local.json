@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"/c/Users/Egofoxxx/Documents/Development Area/DeckBridge\" && python -m pytest tests/test_config.py tests/test_discovery.py -v --tb=short 2>&1)",
+      "Bash(cd \"/c/Users/Egofoxxx/Documents/Development Area/DeckBridge\" && python -m pytest tests/test_transfer.py -v --tb=short 2>&1)",
+      "Bash(cd \"/c/Users/Egofoxxx/Documents/Development Area/DeckBridge\" && python -c \"\nimport tkinter as tk\nfrom app import App\nroot = tk.Tk\\(\\)\nroot.geometry\\('1200x750'\\)\napp = App\\(root\\)\nroot.after\\(500, root.destroy\\)\nroot.mainloop\\(\\)\nprint\\('OK'\\)\n\" 2>&1)",
+      "Bash(cd \"/c/Users/Egofoxxx/Documents/Development Area/DeckBridge\" && python -m pytest tests/ -v --tb=short 2>&1)",
+      "Bash(cd \"/c/Users/Egofoxxx/Documents/Development Area/DeckBridge\" && python -m pytest tests/ -q --tb=short 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\Egofoxxx\\\\Documents\\\\Development Area\\\\DeckBridge\" && python -m pytest tests/ -q --tb=short 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\Egofoxxx\\\\Documents\\\\Development Area\\\\DeckBridge\" && pip install Pillow==10.3.0 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\Egofoxxx\\\\Documents\\\\Development Area\\\\DeckBridge\" && python scripts/generate_icon.py 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\Egofoxxx\\\\Documents\\\\Development Area\\\\DeckBridge\" && python scripts/generate_icon.py && ls assets/icons/ && ls assets/*.ico 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\Egofoxxx\\\\Documents\\\\Development Area\\\\DeckBridge\" && pytest tests/ -q 2>&1\\\\)",
+      "Bash(cd \"C:\\\\Users\\\\Egofoxxx\\\\Documents\\\\Development Area\\\\DeckBridge\" && python scripts/build.py 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\Egofoxxx\\\\Documents\\\\Development Area\\\\DeckBridge\" && pytest tests/ -q 2>&1)"
+    ]
+  }
+}
