@@ -361,6 +361,7 @@ class ProfileManagerDialog(tk.Toplevel):
         top.title("Add Profile — Setup Wizard")
         top.minsize(700, 500)
         top.grab_set()
+        top.configure(background=_DARK_BG)
 
         def _on_add_complete(connection=None) -> None:
             top.destroy()
@@ -368,7 +369,7 @@ class ProfileManagerDialog(tk.Toplevel):
             if self._on_profiles_changed:
                 self._on_profiles_changed()
 
-        wizard = Wizard(top, config=self._config, on_complete=_on_add_complete)
+        wizard = Wizard(top, on_complete=_on_add_complete)
         wizard.pack(fill=tk.BOTH, expand=True)
 
     def _edit_profile(self) -> None:
